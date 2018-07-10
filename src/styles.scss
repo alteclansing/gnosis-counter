@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html {
+  margin: 0;
+  height: 100%;
+  font-family: Roboto
+}
+ body {
+   margin: 0;
+   height: 100%;
+   background-color: #fafafa;
+ }
+
+ .card-container {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .day-counter {
+   text-align: center;
+   font-size: 10rem;
+   margin-bottom: 20px;
+ }
+ .mat-card-title {
+   font-size: 24px !important;
+ }
+ .footer {
+   text-align: center;
+ }
+ .right-aligned {
+   float: right;
+ }
+ .emoji-img {
+   margin-bottom: 25px !important;
+ }
+ .mat-card {
+   min-width: 20%;
+ }
