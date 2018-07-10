@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 import * as firebase from 'firebase';
-import { config } from './app/config/firebase-config.js';
+import { config } from './config/firebase-config.js';
 
 
 import 'hammerjs';
